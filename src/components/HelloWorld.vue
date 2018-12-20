@@ -1,6 +1,7 @@
 <template>
   <div class="hello">
     <h1 v-html="msg"/>
+    <h2>{{ cuid() }}</h2>
     <p>
       For guide and recipes on how to configure / customize this project,<br>
       check out the
@@ -31,10 +32,15 @@
 </template>
 
 <script>
+import cuid from 'cuid';
+
 export default {
   name: 'HelloWorld',
   props: {
     msg: String
+  },
+  methods: {
+    cuid
   }
 }
 </script>
