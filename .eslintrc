@@ -7,8 +7,9 @@
     "@typescript-eslint"
   ],
   "extends": [
-    "plugin:vue/essential",
+    "plugin:vue/recommended",
     "eslint:recommended",
+    "@vue/prettier",
     "@vue/typescript"
   ],
   "rules": {},
