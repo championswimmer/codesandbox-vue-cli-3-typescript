@@ -9,8 +9,6 @@
     "post-update": "yarn upgrade --latest"
   },
   "dependencies": {
-    "cuid": "^2.1.4",
-    "lodash": "^4.17.11",
     "vue": "^2.6.6",
     "vue-class-component": "^6.0.0",
     "vue-property-decorator": "^7.0.0"
@@ -27,29 +25,6 @@
     "eslint-plugin-vue": "^5.2.2",
     "typescript": "~3.2.2",
     "vue-template-compiler": "^2.6.6"
-  },
-  "eslintConfig": {
-    "root": true,
-    "env": {
-      "node": true
-    },
-    "plugins": [
-      "@typescript-eslint"
-    ],
-    "extends": [
-      "plugin:vue/essential",
-      "eslint:recommended",
-      "@vue/typescript"
-    ],
-    "rules": {},
-    "parserOptions": {
-      "parser": "@typescript-eslint/parser"
-    }
-  },
-  "postcss": {
-    "plugins": {
-      "autoprefixer": {}
-    }
   },
   "browserslist": [
     "> 1%",
