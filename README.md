@@ -1,26 +1,23 @@
-# cs-vue-cli-3
+# CodeSandbox Vue CLI v3 Template with TypeScript Support
 
-## Project setup
-```
-yarn install
-```
+## Running on CodeSandbox
 
-### Compiles and hot-reloads for development
-```
-yarn run serve
-```
+Open this link -
+https://codesandbox.io/s/github/championswimmer/codesandbox-vue-cli-3-typescript
 
-### Compiles and minifies for production
-```
-yarn run build
-```
 
-### Run your tests
-```
-yarn run test
+## Running Locally
+
+### Install Dependencies
+
+```shell
+yarn
+# or npm install
 ```
 
-### Lints and fixes files
-```
-yarn run lint
+### Serve Locally (Port: 8080)
+
+```shell
+yarn serve
+# or npm run serve
 ```
