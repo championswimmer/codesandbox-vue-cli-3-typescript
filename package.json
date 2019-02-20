@@ -24,21 +24,6 @@
     "typescript": "~3.2.2",
     "vue-template-compiler": "^2.6.6"
   },
-  "eslintConfig": {
-    "root": true,
-    "env": {
-      "node": true
-    },
-    "extends": [
-      "plugin:vue/essential",
-      "eslint:recommended",
-      "@vue/typescript"
-    ],
-    "rules": {},
-    "parserOptions": {
-      "parser": "@typescript-eslint/parser"
-    }
-  },
   "postcss": {
     "plugins": {
       "autoprefixer": {}
@@ -49,5 +34,5 @@
     "last 2 versions",
     "not ie <= 8"
   ],
-  "main": "src/main.js"
+  "main": "src/main.ts"
 }
